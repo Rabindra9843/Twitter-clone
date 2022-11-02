@@ -1,0 +1,193 @@
+/*
+Common
+*****************/
+
+html,
+body{
+    height: 100%;
+}
+
+.content {
+  max-width: 600px;
+  margin:  0 auto;
+ 
+}
+
+.main{
+    border-left: 1px solid rgb(235, 238, 240);
+    border-right: 1px solid rgb(235, 238, 240);
+}
+
+.main-header {
+   padding: 0px;
+   border-bottom: 1px solid rgb(235, 238, 240);  
+   border-left: 1px solid rgb(235, 238, 240);
+    border-right: 1px solid rgb(235, 238, 240);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+
+.main-header .img {
+    width: 41px;
+    margin-right: 11px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.main-header h1 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+
+    
+}
+
+
+
+
+.main-header .header img{
+    margin-right: 20px;
+}
+
+/*
+Post
+*****************/
+
+
+ .icon {
+width: 45px;
+padding: 5px 15px 10px 10px;
+}
+
+.post_form{
+    border-bottom: 9px solid rgb(235, 238, 240); 
+    display: flex;
+}
+
+.post_form input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: rgb(235 235 235);
+    color: black;
+    border-radius: 9px;
+}
+
+.post_form textarea {
+    width: 80%;
+    height: 90px;
+    border: 0px;
+    border-bottom: 2px solid rgb(235, 238, 240);
+}
+
+.controlpanel {
+    width: 15%;
+    padding: 10px;
+
+}
+
+.btn {
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(143 200 237);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom:30px;
+    cursor: pointer;
+   
+}
+a.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.tweet-post ul {
+    padding: 0;
+}
+
+.tweet-post li {
+    display: flex;
+    padding: 17px;
+    position: relative;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(235, 238, 240);
+} 
+
+.tweet-post li .logo{
+    flex-basis: 15%;
+}
+ 
+.tweet-post li .logo img{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+.user{
+    flex-basis: 0%;
+    width: 13%;
+    padding: 9px 7px 91px 10px;
+}
+
+.pop-menu{
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    border: 0px solid #ccc;
+    padding: 12px 15px;
+    font-size: 12px;
+    display: none;
+}
+.post-img{
+    
+        width: 80%;
+        border-radius: 10px;
+}
+.pop-menu a{
+    text-decoration: none;
+}
+
+.menu_icon{
+    width: 30px;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+.name-body{
+    flex-basis: 85%;
+}
+
+
+ .name{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.date_time{
+    color: gray;
+}
+
+.like img{
+    width: 30px;
+    margin-right: 15px;
+}
+.like {
+    display: flex;
+    align-items: center;
+}
+.like h2{
+    margin: 0;
+}
+
